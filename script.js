@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$(window).scroll(function() {
-		console.log($(document).scrollTop());
+		// console.log($(document).scrollTop());
 	  if ($(document).scrollTop() > 200) {
 		$(".main-head").addClass("head-bg");
 		$(".mob-head").addClass("head-bg");
@@ -23,3 +23,16 @@ navbtn.addEventListener('click',()=>{
 		navmenu.style.display = "none";
 	  }
 })
+
+const div = document.querySelector('.home-main');
+const title = document.querySelector('.logoTitle');
+const info = document.querySelector('.infoP');
+const btn = document.querySelector('.btn-eff');
+
+const tl = new TimelineMax();
+
+tl.fromTo(div,1,{width:"100%"},{width:"80%",ease: Power2.easeInOut})
+  .fromTo(title,1.2,{opacity:0},{opacity:1,ease: Power2.easeInOut})
+  .fromTo(info,1.4,{opacity:0},{opacity:1,ease: Power2.easeInOut})
+  .fromTo(btn,1.6,{opacity:0},{opacity:1,ease: Power2.easeInOut});
+
