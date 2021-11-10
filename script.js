@@ -4,11 +4,13 @@ $(document).ready(function() {
 	  if ($(document).scrollTop() > 200) {
 		$(".main-head").addClass("head-bg");
 		$(".mob-head").addClass("head-bg");
+		$(".head").hide();
 
 		
 	  } else {
 		$(".main-head").removeClass("head-bg");
 		$(".mob-head").removeClass("head-bg");
+		$(".head").show();
 	  }
 	});
   });
