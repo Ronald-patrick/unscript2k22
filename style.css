@@ -241,6 +241,7 @@
 
 .spinner {
 	margin: 0px auto 0;
+	padding-bottom: 50px;
 	width: 70px;
 	text-align: center;
 	display: flex !important;
