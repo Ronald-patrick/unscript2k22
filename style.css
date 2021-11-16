@@ -198,7 +198,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	width: 90%;
+	width: 70%;
 }
 
 @media screen and (max-width: 768px) {
@@ -225,12 +225,14 @@
     width: 100%;
     display: flex;
     position: absolute;
+	z-index: 101;
     top: 0;
     color: white;
     left: 0;
   }
-  .home-main {
-    width: 100%;
+  .home-main{
+    width: 100% !important;
+	height: 400px;
   }
 
   .home-main h1 {
@@ -254,6 +256,7 @@
     color: white;
     position: fixed;
     transition: all 1s ease-out;
+	z-index: 101;
   }
   .nav-menu ul {
     list-style: none;
@@ -265,5 +268,8 @@
   .nav-menu ul li a {
     text-decoration: none;
     color: white;
+  }
+  .about{
+	  margin-top: 150px;
   }
 }
