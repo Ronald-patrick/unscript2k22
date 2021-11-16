@@ -162,7 +162,11 @@
             data-aos-duration="500"
             data-aos-delay="100"
           ></p>
-
+          <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+          </div>
           <script>
             // Set the date we're counting down to
             var countDownDate = new Date("Nov 20, 2021 20:00:00").getTime();
@@ -191,17 +195,14 @@
 
               // If the count down is finished, write some text
               if (distance < 0) {
+                // const invis1 = document.getElementById("demo");
+                // invis1.style.display = "none";
                 clearInterval(x);
-                document.getElementById("demo").innerHTML = "EXPIRED";
+                document.getElementById("demo").innerHTML =
+                  "22nd and 23rd January";
               }
             }, 1000);
           </script>
-
-          <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-          </div>
         </div>
       </div>
     </div>
