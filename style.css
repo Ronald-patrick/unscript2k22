@@ -557,6 +557,10 @@ footer img {
   .wrapper {
 	padding: 0px;
   }
+  .mob-devfolio{
+	width: fit-content;
+	font-size: 0.9rem !important;
+  }
 }
 
 
@@ -601,4 +605,9 @@ footer img {
 	  -webkit-transform: scale(1.0);
 	  transform: scale(1.0);
 	}
+  }
+
+  .block{
+	height:50px;
+	margin-top: 20px;
   }
