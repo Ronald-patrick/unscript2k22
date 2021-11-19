@@ -22,16 +22,21 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
       rel="stylesheet"
     />
+<<<<<<< HEAD
     <script
       src="https://kit.fontawesome.com/8fb9ad94c5.js"
       crossorigin="anonymous"
     ></script>
+=======
+    <script src="https://kit.fontawesome.com/8fb9ad94c5.js" crossorigin="anonymous"></script>
+>>>>>>> bb6d4d347947f02b14188db01097707bbfeb95d3
     <title class="title">Unscript 2k22</title>
   </head>
 
   <body>
     <div class="main-head sticky">
       <div class="head">
+<<<<<<< HEAD
         <h1><img width="80" src="Logo.jpeg" alt="Unscript" /></h1>
         <div
           class="apply-button"
@@ -39,6 +44,15 @@
           data-button-theme="light"
           style="height: 44px; width: 312px"
         ></div>
+=======
+        <h1><img width="80" src="Logo.jpeg" alt="Unscript"></h1>
+        <div
+        class="apply-button"
+        data-hackathon-slug="unscript-2k22"
+        data-button-theme="light"
+        style="height: 44px; width: 312px"
+      ></div>
+>>>>>>> bb6d4d347947f02b14188db01097707bbfeb95d3
       </div>
       <div class="nav">
         <ul>
@@ -124,18 +138,30 @@
     <div class="wrapper" id="domain">
       <div class="about">
         <h1 data-aos="fade-down">Domains</h1>
+<<<<<<< HEAD
         <div class="info domain-wrap">
+=======
+        <div class="info domain-wrap" >
+>>>>>>> bb6d4d347947f02b14188db01097707bbfeb95d3
           <div class="domain">
             <i class="fas fa-globe"></i>
             <span> Web/App Development</span>
           </div>
           <div class="domain">
             <i class="fas fa-user-secret"></i>
+<<<<<<< HEAD
             <span>Security / Blockchain </span>
           </div>
           <div class="domain">
             <i class="fas fa-brain"></i>
             <span> ML / Deep Learning </span>
+=======
+            <span>Security / Blockchain </span> 
+          </div>
+          <div class="domain">
+            <i class="fas fa-brain"></i>
+            <span> ML / Deep Learning </span> 
+>>>>>>> bb6d4d347947f02b14188db01097707bbfeb95d3
           </div>
           <div class="domain">
             <i class="fas fa-microchip"></i>
@@ -145,6 +171,7 @@
       </div>
     </div>
 
+<<<<<<< HEAD
     <div class="wrapper" id="sponsors">
       <div class="about">
         <h1 data-aos="fade-down">Sponsors</h1>
@@ -219,10 +246,89 @@
               }
             }, 1000);
           </script>
+=======
+	<div class="wrapper" id="sponsors">
+		<div class="about">
+		  <h1 data-aos="fade-down">Sponsors</h1>
+		  <div class="info sponsor-wrap">
+			<h1 class="platinum">Platinum Sponsors</h1>
+		   <div class="sponsor-list">
+			  <img src="Devfolio.png" alt="Devfolio">
+			  <img src="Polygon.png" alt="Polygon">
+		   </div> 
+		   <h1 class="gold">Gold Sponsors</h1>
+		   <div class="sponsor-list">
+			<img src="FileCoin.png" alt="Filecoin">
+			<img src="Celo.png" alt="Celo">
+			<img src="Tezos.png" alt="Tezos">
+		   </div> 
+		  </div>
+		</div>
+	  </div>
+
+    <div class="wrapper" id="schedule">
+      <div class="about">
+        <h1 data-aos="fade-down">Schedule</h1>
+        <div class="info">
+          
+          <p
+          style="font-size: 2rem;"
+          id="demo"
+          class="countdown"
+          data-aos="fade"
+          data-aos-duration="500"
+          data-aos-delay="100"
+        ></p>
+        <div class="spinner">
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
+        </div>
+        <script>
+          // Set the date we're counting down to
+          var countDownDate = new Date("Nov 20, 2021 20:00:00").getTime();
+
+          // Update the count down every 1 second
+          var x = setInterval(function () {
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor(
+              (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+            );
+            var minutes = Math.floor(
+              (distance % (1000 * 60 * 60)) / (1000 * 60)
+            );
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="demo"
+            document.getElementById("demo").innerHTML =
+              days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+            // If the count down is finished, write some text
+            if (distance < 0) {
+              // const invis1 = document.getElementById("demo");
+              // invis1.style.display = "none";
+              clearInterval(x);
+              document.getElementById("demo").innerHTML =
+                "22nd and 23rd January";
+                document.getElementsByClassName("spinner")[0].style.visibility = "hidden";
+            }
+          }, 1000);
+        </script>
+
+
+>>>>>>> bb6d4d347947f02b14188db01097707bbfeb95d3
         </div>
       </div>
     </div>
 
+<<<<<<< HEAD
     <section class="contact-area" id="contact">
       <div class="container">
         <div class="row">
@@ -261,13 +367,48 @@
           </div>
         </div>
       </div>
+=======
+
+	<section class="contact-area" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="contact-content text-center">
+                        <a href="#"><img src="Logo.jpeg" alt="logo"></a>
+                        <p style="color: white;">Unscript 2k22 </p>
+                        <div class="hr"></div>
+                        <h6>Fr. Conceicao Rodrigues College of engineering, Bandra (W)</h6>
+                        <h6>+91 91361 14886<span>|</span>+91 99877 52158</h6>
+						<h6><a style="text-decoration: none; color: #8b9199;" href="mailto:unscriptcrce.team@gmail.com">unscriptcrce.team@gmail.com</a></h6>
+
+                        <div class="contact-social">
+                            <ul>
+                                <!-- <li><a class="hover-target" href=""><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a class="hover-target" href=""><i class="fab fa-linkedin-in"></i></a></li> -->
+                                <li><a class="hover-target" target="_blank" href="https://www.instagram.com/unscriptcrce/"><i class="fab fa-instagram"></i></a></li>
+								
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+>>>>>>> bb6d4d347947f02b14188db01097707bbfeb95d3
     </section>
     <!-- =============== 1.9 Contact Area End ====================-->
     <!-- =============== 1.9 Footer Area Start ====================-->
     <footer>
+<<<<<<< HEAD
       <p>Copyright &copy; 2021 "UnscriptCrce" All Rights Reserved.</p>
     </footer>
 
+=======
+        <p>Copyright &copy; 2021 "UnscriptCrce" All Rights Reserved.</p>
+    </footer>
+
+
+
+>>>>>>> bb6d4d347947f02b14188db01097707bbfeb95d3
     <!-- <div class="wrapper" id="faq">
       <div class="about">
         <h1 data-aos="fade-down">FAQ</h1>
@@ -281,50 +422,55 @@
         <div class="info"></div>
       </div>
     </div> -->
+<<<<<<< HEAD
+=======
+
+    <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+>>>>>>> bb6d4d347947f02b14188db01097707bbfeb95d3
 
     <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
-      integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
-      integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script>
-      AOS.init();
-    </script>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+    integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+    integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script>
+    AOS.init();
+  </script>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
   </body>
 </html>
