@@ -19,7 +19,9 @@
 }
 .nav-menu {
   display: none;
+  animation: fadein 1s
 }
+
 .head-bg {
   background-color: rgb(12, 12, 17);
 }
@@ -606,6 +608,11 @@ footer img {
 	  transform: scale(1.0);
 	}
   }
+
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
   .block{
 	height:50px;
