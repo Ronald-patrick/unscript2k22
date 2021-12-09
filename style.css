@@ -19,7 +19,9 @@
 }
 .nav-menu {
   display: none;
+  animation: fadein 1s
 }
+
 .head-bg {
   background-color: rgb(12, 12, 17);
 }
@@ -474,6 +476,29 @@ footer img {
     width: 44px;
 }
 
+.schedule-card{
+	background-color: rgba(43, 45, 66, 0.609);
+	padding: 20px;
+	font-weight: bolder;
+	width: 75%;
+	margin: 20px auto;
+	color: rgba(149, 4, 217, 1);
+	border-radius: 30px;
+}
+.schedule-card ul{
+	margin: 30px auto;
+	width: fit-content;
+	text-align: start;
+	font-weight: lighter;
+}
+.schedule-card ul li {
+	font-size: 1.5rem;
+	margin: 10px 0px;
+	color: rgba(255, 255, 255, 0.65);
+}
+
+
+
 
 
 @media screen and (max-width: 768px) {
@@ -556,6 +581,20 @@ footer img {
   .wrapper {
 	padding: 0px;
   }
+  .mob-devfolio{
+	width: fit-content;
+	font-size: 0.9rem !important;
+  }
+  .schedule-card{
+	  width: 100%;
+	  border-radius: 0px;
+  }
+  .schedule-card h1{
+	font-size: 1.3rem;
+}
+.schedule-card ul li {
+	font-size: 1rem;
+}
 }
 
 
@@ -602,7 +641,12 @@ footer img {
 	}
   }
 
-.block{
-  height:50px;
-  margin-top: 20px;
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
+
+  .block{
+	height:50px;
+	margin-top: 20px;
+  }

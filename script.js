@@ -1,4 +1,9 @@
+console.log(window.location.pathname);
+// if (window.location.href!="")
+// 	window.location.href="#"
+
 $(document).ready(function() {
+	
 	$(window).scroll(function() {
 		// console.log($(document).scrollTop());
 	  if ($(document).scrollTop() > 50) {
@@ -14,6 +19,7 @@ $(document).ready(function() {
 	  }
 	});
   });
+
 
 const navbtn = document.getElementById('nav-btn');
 const navmenu = document.getElementsByClassName('nav-menu')[0];
