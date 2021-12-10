@@ -486,7 +486,7 @@ footer img {
 	color: rgba(149, 4, 217, 1);
 	border-radius: 30px;
 }
-.schedule-card ul{
+/* .schedule-card ul{
 	margin: 30px auto;
 	width: fit-content;
 	text-align: start;
@@ -494,11 +494,20 @@ footer img {
 }
 .schedule-card ul li {
 	font-size: 1.5rem;
-	margin: 10px 0px;
+	margin: 0px 0px;
 	color: rgba(255, 255, 255, 0.65);
-}
+} */
 
-
+.schedule-card-element {
+	background-color: rgba(43, 45, 66, 0.609);
+	padding: 15px;
+	font-weight: bolder;
+	width: 50%;
+	margin: 20px auto;
+	color: rgba(149, 4, 217, 1);
+	border-radius: 30px;
+  border: 1px solid rgba(255,255,255,0.2);
+} 
 
 
 
@@ -593,9 +602,18 @@ footer img {
   .schedule-card h1{
 	font-size: 1.3rem;
 }
-.schedule-card ul li {
+/* .schedule-card ul li {
 	font-size: 1rem;
-}
+} */
+
+.schedule-card-element {
+	width: 80%;
+	margin: 20px auto;
+	color: rgba(149, 4, 217, 1);
+	border-radius: 30px;
+  border: 1px solid rgba(255,255,255,0.2);
+} 
+
 }
 
 
