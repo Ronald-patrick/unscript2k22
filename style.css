@@ -513,14 +513,14 @@ footer img {
 .accordion-section .panel-default .panel-title a:after {
   font-family: 'FontAwesome';
   font-style: normal;
-  font-size: 2rem;
-  content: "\f106";
+  font-size: 3rem;
+  content: "\2212";
   color: rgba(149, 4, 217, 1);
   float: right;
   margin-top: -12px;
 }
 .accordion-section .panel-default .panel-title a.collapsed:after {
-  content: "\f107";
+  content: "\2b";
 }
 .accordion-section .panel-default .panel-body {
   font-size: 1.0rem;
