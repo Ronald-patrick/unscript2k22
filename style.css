@@ -493,6 +493,8 @@ footer img {
 	font-weight: lighter;
 }
 .schedule-card ul li {
+  background-color: rgba(43, 45, 66, 0.609);
+	padding: 20px;
 	font-size: 1.5rem;
 	margin: 0px 0px;
 	color: rgba(255, 255, 255, 0.65);
@@ -503,11 +505,13 @@ footer img {
 	padding: 15px;
 	font-weight: bolder;
 	width: 50%;
-	margin: 20px auto;
+  margin: 0 auto;
 	color: rgba(149, 4, 217, 1);
 	border-radius: 30px;
   border: 1px solid rgba(255,255,255,0.2);
-} 
+  text-align:auto;
+  margin-top:20px;
+}
 
 
 
@@ -607,11 +611,8 @@ footer img {
 } */
 
 .schedule-card-element {
-	width: 80%;
-	margin: 20px auto;
-	color: rgba(149, 4, 217, 1);
-	border-radius: 30px;
-  border: 1px solid rgba(255,255,255,0.2);
+	/* width: 80%; */
+  text-align:none;
 } 
 
 }
