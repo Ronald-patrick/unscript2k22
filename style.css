@@ -508,7 +508,7 @@ footer img {
 .accordion-section .panel-default .panel-title a {
   display: block;
   color: rgba(149, 4, 217, 1);
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .accordion-section .panel-default .panel-title a:after {
   font-family: 'FontAwesome';
@@ -631,7 +631,7 @@ font-size: 1.3rem;
     text-align: none;
   }
   .accordion-section .panel-default .panel-title a:after {
-    font-size: 1.0rem;
+    font-size: 2.0rem;
   }
   .accordion-section .panel-default .panel-body p{
     font-size: 1.0rem;
