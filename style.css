@@ -610,7 +610,7 @@ footer img {
 } */
 
 .schedule-card-element {
-	margin: 20px auto;
+  width: 90%;
   text-align:none;
 } 
 
