@@ -498,6 +498,37 @@ footer img {
   text-align: auto;
 }
 
+/* FAQ accordian*/
+
+.accordion-section .panel-default > .panel-heading {
+  border: 0;
+  background: rgba(43, 45, 66, 0.609);
+  padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+  display: block;
+  color: rgba(149, 4, 217, 1);
+  font-size: 1.3rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-size: 2rem;
+  content: "\f106";
+  color: rgba(149, 4, 217, 1);
+  float: right;
+  margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+  content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+  font-size: 1.0rem;
+}
+.accordion-section .panel-default .panel-body p{
+font-size: 1.3rem;
+}
+
 @media screen and (max-width: 768px) {
   .main-head {
     display: none;
@@ -598,6 +629,12 @@ footer img {
     width: 90%;
     text-align: none;
   }
+  .accordion-section .panel-default .panel-title a:after {
+    font-size: 1.0rem;
+  }
+  .accordion-section .panel-default .panel-body p{
+    font-size: 1.0rem;
+  }
 }
 .spinner {
   margin: 0px auto 0;
@@ -676,34 +713,4 @@ footer img {
     width: 100%;
     overflow-x: hidden;
   }
-}
-
-
-.accordion-section .panel-default > .panel-heading {
-    border: 0;
-    background: rgba(43, 45, 66, 0.609);
-    padding: 0;
-}
-.accordion-section .panel-default .panel-title a {
-    display: block;
-    color: rgba(149, 4, 217, 1);
-    font-size: 1.5rem;
-}
-.accordion-section .panel-default .panel-title a:after {
-    font-family: 'FontAwesome';
-    font-style: normal;
-    font-size: 3rem;
-    content: "\f106";
-    color: rgba(149, 4, 217, 1);
-    float: right;
-    margin-top: -12px;
-}
-.accordion-section .panel-default .panel-title a.collapsed:after {
-    content: "\f107";
-}
-.accordion-section .panel-default .panel-body {
-    font-size: 1.0rem;
-}
-.accordion-section .panel-default .panel-body p{
-  font-size: 1.5rem;
 }
