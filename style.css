@@ -221,6 +221,19 @@
   margin-top: 30px;
 }
 
+.other-sponsor{
+	background-image: repeating-linear-gradient(-45deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent 1px, transparent 6px);
+    background-size: 4px 4px;
+	font-size: 2rem;
+  width: fit-content;
+  padding: 20px 40px;
+
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #ffffff;
+}
+
 .sponsor-wrap .gold {
   font-size: 2rem;
   width: fit-content;
