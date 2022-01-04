@@ -207,7 +207,7 @@
   margin-bottom: 30px;
 }
 
-.sponsor-wrap {
+.wrap-sp {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -234,7 +234,7 @@
   text-shadow: 1px 1px 0 #ffffff;
 }
 
-.sponsor-wrap .gold {
+.wrap-sp .gold {
   font-size: 2rem;
   width: fit-content;
   padding: 20px 40px;
@@ -309,7 +309,7 @@
   );
 }
 
-.sponsor-wrap .platinum {
+.wrap-sp .platinum {
   font-size: 2rem;
   width: fit-content;
   padding: 20px 40px;
